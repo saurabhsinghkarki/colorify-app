@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+body{
+  background-color: rgb(30, 29, 29);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+span {
+  text-align: center;
+  color: aliceblue;
+}
+
+.buttons {
+  background-color: rgb(188, 219, 161);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  border-top: solid black 5px;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.paletteBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  gap: 20px;
+  border: solid black 5px;
+  padding: 20px;
+  box-shadow: 10px 10px;
+  border-radius: 5px;
+}
+.point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid black 2px;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-right: 3px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#add {
+  width: 40px;
+  height: 40px;
+}
+
+#add-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center:hover {
+  opacity: 0.5;
+}
+
+.visibleColor {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  box-shadow: 3px 3px;
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer button {
+  padding: 10px;
+  background-color: rgb(224, 57, 57);
+  color: white;
+  border: none;
+  position: relative;
+  bottom: 10px;
+  right: 30px;
+  cursor: pointer;
+  box-shadow: 3px 3px black;
+}
+
+.footer button:hover {
+  opacity: 0.8;
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login input {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.login button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: rgb(99, 220, 99);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 5px 5px rgb(92, 92, 92);
+  margin-inline: 20px;
+}
+
+.login button:hover {
+  opacity: 0.8;
+}
+
+.login span {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+.addBox{
+  border: solid black 5px;
+  width:90px;
+  height: 90px;
+}
+
+.colori{
+  flex-grow: 1;
+}
+
+.loader{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#signUp{
+  background-color: rgb(231, 231, 49);
+}
